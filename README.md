@@ -6,6 +6,16 @@ This project is a Python-based network traffic monitoring prototype developed in
 
 The project demonstrates basic network monitoring, packet analysis, threshold-based detection, and security alert generation in a controlled cybersecurity home lab.
 
+## 🔗 Related Portfolio Projects
+
+**[Cybersecurity SOC Home Lab](https://github.com/francisr94/Cybersecurity-SOC-HomeLab)**
+
+A hands-on SOC environment featuring Splunk Enterprise, Windows Server, Active Directory, Sysmon, pfSense, security event monitoring, and detection testing.
+
+**[Phishing Email Analysis](https://github.com/francisr94/Phishing-Email-Analysis)**
+
+A practical email investigation project demonstrating phishing analysis and security research.
+
 ## Lab Environment
 
 | Component | Configuration |
