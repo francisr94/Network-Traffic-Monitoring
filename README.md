@@ -88,7 +88,7 @@ The traffic was intentionally generated for testing. A high ICMP packet count is
 | File | Purpose |
 |---|---|
 | `network_monitor.py` | Main monitoring and detection script |
-| `traffic.pcap` | Captured network traffic |
+| `traffic.pcap` | Generated packet capture (excluded from GitHub) |
 | `traffic.csv` | Extracted packet metadata |
 | `alert.json` | Generated security alert |
 | `README.md` | Project documentation |
@@ -120,13 +120,17 @@ This project is an educational cybersecurity lab prototype. Testing was performe
 ## 📸 Project Screenshots
 
 ### 1. Network Packet Capture
-![Network Packet Capture](screenshots/01-network-capture.png)
+
+![Network Packet Capture](./screenshots/01-network-capture.png)
 
 ### 2. Detection Results
-![ICMP Detection Results](screenshots/02-detection-results.png)
+
+![ICMP Detection Results](./screenshots/02-detection-results.png)
 
 ### 3. Generated Security Alert
-![Generated JSON Alert](screenshots/03-generated-alert.png)
+
+![Generated JSON Alert](./screenshots/03-generated-alert.png)
 
 ### 4. GitHub Project Overview
-![GitHub Project Overview](screenshots/04-github-project-overview.png)
+
+![GitHub Project Overview](./screenshots/04-github-project-overview.png)
