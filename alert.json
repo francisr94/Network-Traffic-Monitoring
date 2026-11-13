@@ -1,0 +1,32 @@
+{
+    "alert_id": "SOC-FE5E4DE1",
+    "alert_type": "High-Volume ICMP Traffic",
+    "severity": "Medium",
+    "status": "Requires Analyst Review",
+    "detection": {
+        "threshold_packets": 40,
+        "capture_duration_seconds": 100,
+        "protocol": "ICMP",
+        "destination_ip": "192.168.10.10"
+    },
+    "sensor": {
+        "interface": "eth1"
+    },
+    "evidence": {
+        "total_packets_analyzed": 60,
+        "suspicious_source_count": 1,
+        "pcap_file": "traffic.pcap",
+        "csv_file": "traffic.csv"
+    },
+    "findings": [
+        {
+            "source_ip": "192.168.10.102",
+            "packet_count": 60,
+            "total_bytes": 5880,
+            "first_seen_utc": "2026-11-13T15:57:02.596984+00:00",
+            "last_seen_utc": "2026-11-13T15:57:14.597224+00:00"
+        }
+    ],
+    "analyst_question": "Is this ICMP traffic expected, or could it indicate network scanning, monitoring activity, or unusual behavior?",
+    "generated_at_utc": "2026-11-13T15:58:39.793343+00:00"
+}
